@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  <Version>1.0.0</Version>
+  <Authors>YourName</Authors>
+  <Company>YourCompany</Company>
+  <PackageId>YouTube.ReplayChatDownloader</PackageId>
+  <Description>Plugin-style library for downloading YouTube live chat replay</Description>
+</PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Configuration\" />
+    <Folder Include="Core\" />
+    <Folder Include="DependencyInjection\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Models\" />
+    <Folder Include="Networking\" />
+    <Folder Include="Parsers\" />
+    <Folder Include="Sinks\" />
+  </ItemGroup>
+
+</Project>
