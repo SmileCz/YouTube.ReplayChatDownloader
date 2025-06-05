@@ -1,6 +1,8 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTube.ReplayChatDownloader", "YouTube.ReplayChatDownloader.csproj", "{81102923-5A0B-4A70-9CFF-223B4B1CBC1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTube.ReplayChatDownloader", "src\Youtube.ReplayChatDownloader\YouTube.ReplayChatDownloader.csproj", "{B2417D76-A940-4324-B766-8971EB8075CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTube.ReplayChatDownloader.Tests", "tests\YouTube.ReplayChatDownloader.Tests\YouTube.ReplayChatDownloader.Tests.csproj", "{8E39E425-F682-442E-8A96-A19B802737C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +14,17 @@ Global
 		{81102923-5A0B-4A70-9CFF-223B4B1CBC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81102923-5A0B-4A70-9CFF-223B4B1CBC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81102923-5A0B-4A70-9CFF-223B4B1CBC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{147D597A-2F57-4F82-A7AA-8E7582F42394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{147D597A-2F57-4F82-A7AA-8E7582F42394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{147D597A-2F57-4F82-A7AA-8E7582F42394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{147D597A-2F57-4F82-A7AA-8E7582F42394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2417D76-A940-4324-B766-8971EB8075CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2417D76-A940-4324-B766-8971EB8075CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2417D76-A940-4324-B766-8971EB8075CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2417D76-A940-4324-B766-8971EB8075CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E39E425-F682-442E-8A96-A19B802737C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E39E425-F682-442E-8A96-A19B802737C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E39E425-F682-442E-8A96-A19B802737C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E39E425-F682-442E-8A96-A19B802737C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
